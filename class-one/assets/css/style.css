@@ -1,0 +1,67 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+
+.section {padding:80px 0;}
+
+.service-section-box {
+	border: 2px solid #EAEAEA;
+	display: block;
+	padding: 40px;
+	border-radius: 3px;
+	color: #333;
+    text-align: center;
+    position: relative;
+    padding-top: 70px;
+}
+.service-section-box h3 {
+  color: #262626;
+  font-size: 25px;
+}
+.service-section-box p {
+	font-size: 15px;
+    color: #7F7F7F;
+    line-height: 30px;
+    margin: 0;
+}
+.service-section-box:hover {
+	color: #333;
+}
+
+.service-icon {
+	background: #4FBF70;
+	color: #fff;
+	font-size: 30px;
+	width: 70px;
+	height: 70px;
+	line-height: 70px;
+	border-radius: 50%;
+	position: absolute;
+	top: -35px;
+	margin-left: -35px;
+	left: 50%;
+}
+
+.fa.fa-inbox.service-icon {
+  background: #76C145;
+}
+.fa.fa-calendar.service-icon {
+  background: #9BC202;
+}
