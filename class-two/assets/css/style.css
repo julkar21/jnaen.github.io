@@ -1,0 +1,79 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+
+.section-padding{padding: 80px 0;}
+
+.service-bg-1 {background-image: url(../img/bg-1.jpeg)}
+.service-bg-2 {background-image: url(../img/bg-2.jpeg)}
+.service-bg-3 {background-image: url(../img/bg-3.jpeg)}
+.service-bg-4 {background-image: url(../img/bg-4.jpeg)}
+
+.service-box {
+	height: 200px;
+	text-align: center;
+	position: relative;
+	border-radius: 5px;
+	background-size: cover;
+	z-index: 2;
+}
+.service-box::after {
+    position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #000;
+	z-index: -99;
+	opacity: .4;
+}
+a.box-btn {
+	color: #fff;
+	background: #FAB701;
+	display: inline-block;
+	padding: 10px;
+	border-radius: 3px;
+	font-size: 18px;
+	opacity: 0;
+	visibility: hidden;
+}
+a.box-btn:hover{color: #fff;}
+.service-box:hover a.box-btn {
+	opacity: 1;
+	visibility: visible;
+	transition: .3s;
+}
+.service-box-hover h3 {
+	color: #D9DBDF;
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 25px;
+}
+.service-box-hover {
+	position: absolute;
+	left: 0;
+	bottom: -30px;
+	width: 100%;
+	transition: .3s;
+}
+.service-box:hover .service-box-hover {
+	bottom: 40px;
+}
