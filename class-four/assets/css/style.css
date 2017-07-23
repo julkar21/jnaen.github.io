@@ -1,0 +1,97 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {background: #F5F5F5;}
+.section-padding{padding: 80px 0;}
+
+.section-title {
+	margin-bottom: 50px;
+}
+.section-title h3 {
+  color: #00BAFF;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+.section-title-sep {
+  position: relative;
+  width: 300px;
+  height: 2px;
+  background: #00BAFF;
+  margin: 0 auto 30px;
+}
+.section-title-sep:after {
+  position: absolute;
+  left: 50%;
+  bottom: -1px;
+  content: "";
+  width: 70px;
+  height: 5px;
+  background: #00BAFF;
+  margin-left: -35px;
+}
+.section-title p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+
+.singel-team-box {
+	padding: 30px;
+	background: #fff;
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.6;
+}
+.singel-team-box h4 {
+	color: #4C9ED9;
+	margin-top: 20px;
+}
+.singel-team-box h4 span {
+	display: block;
+	color: #333;
+	font-weight: 400;
+	margin-top: 10px;
+}
+.singel-team-box img {
+  max-width: 200px;
+  margin: 0 auto 30px;
+  border-radius: 50%;
+  display: block;
+}
+.team-desc span {
+	font-size: 120%;
+	color: #4C9ED9;
+	margin: 0 8px;
+}
+.team-carousel .owl-nav div {
+	position: absolute;
+	width: 35px;
+	height: 35px;
+	line-height: 35px;
+	background: #699ED9;
+	color: #fff;
+	font-size: 20px;
+	border-radius: 50%;
+	left: -70px;
+	top: 50%;
+	margin-top: -17.5px;
+    text-align: center;
+}
+.team-carousel .owl-nav div.owl-next {
+	left: auto;
+	right: -70px;
+}
