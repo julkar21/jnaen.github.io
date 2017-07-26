@@ -1,0 +1,110 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+.section-padding{padding: 80px 0;}
+.newsletter-bg {background-image: url(../img/bg-1.jpg)}
+
+
+.newsletter-bg {
+  text-align: center;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+    padding-bottom: 150px;
+}
+.newsletter-bg:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #333;
+  z-index: -1;
+  content: "";
+  opacity: 0.4;
+}
+.col-md-6.col-md-offset-3 {
+}
+.newsletter-bg h2 {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+.newsletter-bg p {font-style: italic;}
+.newsletter-bg input[type=email] {
+  background: #513831;
+  border: 1px solid #7E7976;
+  padding: 12px 20px;
+  opacity: .6;
+  width: 76%;
+  border-radius: 50px;
+}
+.newsletter-bg input[type=submit] {
+  background: #29B79D;
+  border: none;
+  display: inline-block;
+  padding: 13px 20px;
+  border-radius: 50px;
+  width: 23%;
+    text-transform: uppercase;
+}
+.newslwtter-form form {
+	margin-bottom: 35px;
+}
+
+.border-boxes {
+  overflow: hidden;
+  border-top: 1px solid #EEEEEE;
+  background: #fff;
+  margin-top: -50px;
+  position: relative;
+  z-index: 2;
+}
+.singel-border-box {
+  width: 50%;
+  float: left;
+  border-bottom: 1px solid #EEEEEE;
+  border-top: 1px solid #EEEEEE;
+  border-left: 1px solid #EEEEEE;
+  padding: 50px 80px;
+  min-height: 288px;
+    text-align: center;
+}
+.singel-border-box h2 {
+	text-transform: uppercase;
+	margin-bottom: 30px;
+}
+p.author-name {
+	font-weight: 700;
+	font-size: 20px;
+	text-transform: uppercase;
+    margin-top: 31px;
+}
+a.box-btn {
+	background: #333333;
+	display: inline-block;
+	padding: 10px 30px;
+	color: #fff;
+	border-radius: 50px;
+	text-transform: uppercase;
+	font-weight: 700;
+    margin-top: 20px;
+}
