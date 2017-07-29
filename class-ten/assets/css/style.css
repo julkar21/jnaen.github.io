@@ -1,0 +1,145 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+
+.singel-bg-1 {background-image: url(../img/bg-1.jpeg)}
+.singel-bg-2 {background-image: url(../img/bg-2.jpeg)}
+.singel-bg-3 {background-image: url(../img/bg-3.jpeg)}
+
+.boxed-btn, .welcome-area:after {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#005997+0,0095be+100 */
+background: #005997; /* Old browsers */
+background: -moz-linear-gradient(left, #005997 0%, #0095be 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left, #005997 0%,#0095be 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right, #005997 0%,#0095be 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#005997', endColorstr='#0095be',GradientType=1 ); /* IE6-9 */
+}
+.text-right {text-align: right}
+.welcome-area {
+	position: relative;
+	z-index: 1;
+   padding-bottom: 100px;
+}
+.welcome-area::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 65%;
+	height: 100%;
+	content: "";
+	z-index: -1;
+}
+.header-area {
+	padding: 50px 0;
+}
+.logo a, .main-menu a {
+	color: #fff;
+}
+.logo {
+	font-size: 25px;
+	padding-top: 6px;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+}
+li {
+}
+.main-menu ul li a {
+  display: block;
+  padding: 16px 20px;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.main-menu ul li:hover a {
+  color: #B3DA60;
+  transition: .2s;
+}
+.header-right-content a {
+  color: #000;
+}
+.header-right-content {
+	padding-top: 15px;
+}
+.social-icons {
+  display: inline-block;
+  margin-right: 50px;
+  padding-left: 20px;
+  margin-left: 20px;
+  border-left: 1px solid #e8e8e8;       
+}
+.social-icons a {
+  display: inline-block;
+  padding: 0 4px;
+  font-size: 14px;
+}
+.singel-slide {
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	display: table;
+	width: 100%;
+}
+.slide-inner {
+	display: table-cell;
+	vertical-align: middle;
+	width: 100%;
+}
+.slide-text {
+	max-width: 700px;
+	padding: 130px;
+	color: #fff;
+}
+.slide-text h4 {
+	text-transform: uppercase;
+	color: #30A7C7;
+	font-size: 18px;
+	font-weight: 400;
+}
+.slide-text h2 {
+	font-size: 48px;
+	font-weight: 500;
+	text-transform: capitalize;
+	margin-bottom: 50px;
+}
+.boxed-btn {
+	display: inline-block;
+	padding: 15px 30px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.homepage-slides .owl-nav div {
+	display: inline-block;
+	color: #fff;
+	margin-right: 20px;
+	font-size: 20px;
+	margin-top: 20px;
+	opacity: .6;
+}
