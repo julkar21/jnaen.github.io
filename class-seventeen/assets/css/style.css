@@ -1,0 +1,71 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    color: #757575;
+}
+.section-padding{
+    padding: 80px 50px;
+}
+.section-title h2 {
+	position: relative;
+	color: #333;
+}
+.section-title h2::before {
+	position: absolute;
+	top: 0;
+	left: -20px;
+	width: 5px;
+	height: 100%;
+	content: "";
+	background: #FFCE44;
+}
+
+.singel-icon {
+  color: #FFCE44;
+  font-size: 50px;
+}
+.singel-service-box {
+  margin-bottom: 40px;
+}
+.section-title {
+  margin-bottom: 40px;
+}
+.singel-service-box h3 {
+  color: #4C9ED9;
+}
+.border-box {
+	border: 7px solid #FFBB00;
+	padding: 40px 20px 40px 40px;
+	margin-top: 100px;
+	margin-right: 100px;
+}
+.border-box-img {
+  margin-top: -140px;
+  width: 470px;
+  margin-right: -140px;
+  max-width: 140%;
+  padding-bottom: 50px;
+}
+.border-box-raedmore {
+	text-transform: uppercase;
+	font-weight: 700;
+	transform: rotate(270deg);
+	position: absolute;
+	bottom: 42px;
+	right: 15px;
+}
