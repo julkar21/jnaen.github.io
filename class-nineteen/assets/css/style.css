@@ -1,0 +1,115 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+.section-padding {
+    padding: 80px 0;    
+}
+.singel-price-item {
+	box-shadow: 0 0 9px #ddd;
+	padding: 30px;
+	border-top: 3px solid #2DC795;
+	text-align: center;
+	font-size: 16px;
+    transition: .3s;
+}
+.pricing-text {
+  margin: 0;
+  font-size: 30px;
+  font-weight: 700;
+  padding-top: 20px;
+}
+.pricing-head {
+  width: 120px;
+  height: 120px;
+  background: #2DC795;
+  border-radius: 50%;
+  margin: 30px auto;
+  color: #fff;
+  font-size: 17px;
+    position: relative;
+}
+.pricing-head::after {
+	position: absolute;
+	width: 112%;
+	height: 112%;
+	top: -6%;
+	left: -6%;
+	border: 3px solid #2DC795;
+	content: "";
+	border-radius: 50%;
+}
+.pricing-content b {
+  margin-right: 5px;
+}
+.pricing-content {
+  color: #646464;
+}
+.bordered-btn {
+	text-transform: uppercase;
+	color: #2DC795;
+	border: 2px solid #2DC795;
+	padding: 15px 30px;
+	border-radius: 50px;
+	font-weight: 700;
+	display: inline-block;
+	margin-top: 20px;
+}
+.bordered-btn:hover {
+  color: #2DC795;
+}
+.singel-price-item.theme-2 {
+	border-color: #FE5E3C;
+}
+.theme-2 .pricing-head {
+	background-color: #FE5E3C;
+}
+.theme-2 .pricing-head:after{
+    border-color: #FE5E3C;
+}
+.theme-2 .bordered-btn {
+	background-color: #FE5E3C;
+	color: #fff;
+	border-color: #FE5E3C;
+}
+.singel-price-item.theme-3 {
+	border-color: #B378F9;
+}
+.theme-3 .pricing-head {
+	background-color: #B378F9;
+}
+.theme-3 .pricing-head:after{
+    border-color: #B378F9;
+}
+.theme-3 .bordered-btn {
+	color: #B378F9;
+	border-color: #B378F9;
+}
+.singel-price-item:hover {
+	transform: scale(1.04);
+	box-shadow: 0 0 10px #2DC795;
+}
+.theme-2.singel-price-item:hover {
+	transform: scale(1.04);
+	box-shadow: 0 0 10px #FE5E3C;
+}
+.theme-3.singel-price-item:hover {
+	transform: scale(1.04);
+	box-shadow: 0 0 10px #B378F9;
+}
