@@ -1,0 +1,142 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i');
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+font-family:'Ubuntu', sans-serif;
+	line-height:2;
+}
+.header-area {
+	position: absolute;
+	z-index: 2;
+	width: 100%;
+}
+.header-area a{
+    color: #fff;
+}
+.logo {
+	width: 60px;
+	height: 60px;
+	line-height: 55px;
+	border-radius: 50%;
+	border: 3px solid #3AAAFF;
+    text-align: center;
+    margin: 20px 0;
+}
+.logo:hover{
+    color: #fff;
+}
+.logo-text {
+	font-size: 30px;
+}
+.main-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.main-menu ul li {
+	display: inline-block;
+}
+.main-menu ul li a {
+	font-size: 17px;
+	padding: 35px 15px;
+	opacity: .8;
+	display: block;
+}
+.buy {
+	float: right;
+	display: inline-block;
+    padding-top: 38px;
+    position: relative;
+}
+.buy::before {
+	width: 50px;
+	height: 3px;
+	position: absolute;
+	content: "";
+	background: #E100FF;
+	left: -85px;
+	top: 50%;
+	margin-top: 19px;
+}
+.welcome-area{background: #a647ff;
+background: -moz-linear-gradient(45deg,  #a647ff 0%, #591dff 100%);
+background: -webkit-linear-gradient(45deg,  #a647ff 0%,#591dff 100%);
+background: linear-gradient(45deg,  #a647ff 0%,#591dff 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a647ff', endColorstr='#591dff',GradientType=1 );
+position: relative;
+    padding: 150px 0;
+}
+.welcome-text {
+	padding: 30px 0;
+}
+.welcome-text h1 {
+	font-size: 60px;
+    color: #fff;
+}
+.welcome-text p{
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.7;
+}
+.welcome-button {
+	position: absolute;
+	right: 0;
+	top: 30%;
+	color: #ddd;
+	border: 1px solid #9B72FF;
+	padding: 20px 150px;
+	border-radius: 50px;
+	opacity: .7;
+}
+.welcomr-btn {
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+    padding-left: 15px;
+}
+.welcomr-btn:hover{
+    color:#fff;
+}
+.single-item {
+	color: #fff;
+	opacity: .6;
+}
+.single-item span {
+	font-size: 40px;
+	color: #fff;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
