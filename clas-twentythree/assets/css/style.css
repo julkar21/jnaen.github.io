@@ -1,0 +1,158 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+.section-padding{
+    padding: 80px 0;
+    min-height: 500px;
+}
+.section-heading {
+	margin-bottom: 50px;
+}
+
+.main-menu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 17px;
+}
+.main-menu ul li {
+  display: inline-block;
+  position: relative;
+}
+.main-menu ul li span {
+	position: absolute;
+	top: 50%;
+	right: 0px;
+	border-width: 6px;
+	margin-top: -2px;
+}
+.main-menu ul li a {
+  display: block;
+  padding: 15px;
+  color: #333;
+}
+.main-menu ul li:hover > a {
+	color: #16ACE3;
+    transition: .3s;
+}
+.main-menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+    margin-top: 0px;
+}
+.main-menu ul li:hover ul li:hover a{
+    background: #DD4F43;
+    color: #fff;
+}
+.main-menu ul li ul {
+	position: absolute;
+	left: 0;
+	width: 190px;
+	background: #000000;
+    padding: 15px 0;
+    transition: .3s;
+    opacity: 0;
+    visibility: hidden;
+    margin-top: 25px;
+}
+.main-menu ul li ul li {
+	display: block;
+}
+.main-menu li ul li a {
+	padding: 10px 15px;
+	color: #999;
+}
+
+/* Margin Right Effect*/
+.main-menu.margin-right-effect ul li ul{
+    left:100px;
+    margin-top: 0;
+}
+.main-menu.margin-right-effect ul li:hover ul{
+    left:0;
+}
+
+/* Margin Left Effect*/
+.main-menu.margin-left-effect ul li ul{
+    left:-50px;
+    margin-top: 0;
+    
+}
+.main-menu.margin-left-effect ul li:hover ul{
+    left:0px;
+}
+/*Transition One Effect */
+
+.main-menu.effect-one ul li ul{
+    transform: scale(.5);    
+}
+.main-menu.effect-one ul li:hover ul{
+    transform: scale(1)
+}
+/* Transition Effect Two*/
+
+.main-menu.effect-two ul li ul{
+    transform: translateX(50px) rotate(150deg);
+}
+.main-menu.effect-two ul li:hover ul{
+    transform: translateX(0px) rotate(0deg);
+}
+
+/* Transition Effect Three*/
+
+.main-menu.effect-three ul li ul{
+    transform: translateX(-50px) rotateY(270deg);
+}
+.main-menu.effect-three ul li:hover ul{
+    transform: translateX(0px) rotateY(0deg)
+}
+/* Transition Effect Four*/
+
+.main-menu.effect-four ul li ul{
+    transform: scale(0)rotateY(180deg);
+}
+.main-menu.effect-four ul li:hover ul{
+    transform: scale(1) rotateY(0deg);
+}
+/* Transition Effect Five*/
+
+.main-menu.effect-five ul li ul{
+   transform:translateX(-150px) rotateY(270deg);
+}
+.main-menu.effect-five ul li:hover ul{
+    transform:translateX(0px) rotateY(0deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
