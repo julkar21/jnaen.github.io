@@ -1,0 +1,123 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Muli:200i,300,300i,400,400i,700,700i,800,800i,900,900i|Poppins:400,700');
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    font-family: 'Muli', sans-serif;
+}
+.portfolio-bg-1 {background-image: url(../img/bg-1.jpg)}
+.portfolio-bg-2 {background-image: url(../img/bg-2.jpg)}
+.portfolio-bg-3 {background-image: url(../img/bg-3.jpg)}
+.portfolio-bg-4 {background-image: url(../img/bg-4.jpg)}
+.portfolio-bg-5 {background-image: url(../img/bg-5.jpg)}
+.portfolio-bg-6 {background-image: url(../img/bg-6.jpg)}
+.portfolio-bg-7 {background-image: url(../img/bg-7.jpg)}
+.portfolio-bg-8 {background-image: url(../img/bg-8.jpg)}
+.portfolio-bg-9 {background-image: url(../img/bg-9.jpg)}
+.portfolio-bg-10 {background-image: url(../img/bg-10.jpg)}
+.portfolio-bg-11 {background-image: url(../img/bg-11.jpg)}
+
+.header-area {
+	padding: 40px 30px;
+}
+.logo a {
+	color: #000;
+}
+.logo h1 {
+	margin: 0;
+	text-transform: uppercase;
+	font-size: 22px;
+	letter-spacing: 4px;
+}
+.logo h1 span {
+	font-size: 10px;
+	position: absolute;
+}
+.menu-trigger {
+	display: inline-block;
+	width: 30px;
+}
+.menu-trigger span {
+	background: #000;
+	height: 2px;
+	display: block;
+    transition: .2s;
+}
+.menu-trigger span:nth-child(2) {
+	margin: 7px 0;
+}
+.menu-trigger:hover span:nth-child(1), .menu-trigger:hover span:nth-child(3) {
+	margin: 0 5px;
+}
+.singel-portfolio-item {
+	float: left;
+	width: 25%;
+	height: 330px;
+	background-size: 100%;
+	background-position: center;
+	background-color: #000;
+    transition: .5s;
+}
+.singel-portfolio-item:hover {background-size: 120%;}
+.portfolio-hover {
+	display: table;
+	width: 100%;
+	height: 100%;    
+	opacity: 0;
+	visibility: hidden;
+	transition: .5s;
+    background: #fff;
+}
+.portfolio-inner {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+    padding-top: 50px;
+     transition:0.7s ease-in .3s;
+    opacity:0;
+    visibility:hidden;
+}
+.singel-portfolio-item:hover .portfolio-inner{
+    padding: 0;
+    opacity: 1;
+    visibility: visible;
+}
+.portfolio-inner a {
+	color: #000;
+	letter-spacing: 4px;
+}
+.portfolio-inner h3 {
+	font-size: 28px;
+}
+.portfolio-inner p {
+	opacity: .5;
+	text-transform: uppercase;
+    transition: .2s;
+}
+.portfolio-inner p:hover {
+	opacity: 1;
+}
+.singel-portfolio-item:hover .portfolio-hover {
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
+
+
