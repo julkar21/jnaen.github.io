@@ -1,0 +1,61 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i');
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.section-padding{
+    padding: 100px 0;
+    margin: 150px 0;
+}
+.section-bg {
+	background:#191D1C;
+    color: #fff;
+}
+.style-img {
+	margin-top: -200px;
+}
+.section-content h1 {
+	font-size: 80px;
+	margin-bottom: 25px;
+}
+.section-content h3 {
+	text-transform: uppercase;
+	font-weight: 400;
+	margin-bottom: 40px;
+    letter-spacing: 3px;
+}
+.section-content p {
+	font-size: 17px;
+	opacity: .3;
+	line-height: 1.7;
+	margin-bottom: 30px;
+}
+.boxed-btn {
+	color: #fff;
+	border: 1px solid;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	display: inline-block;
+	padding: 15px 30px;
+    transition: .3s;
+}
+.boxed-btn:hover {
+	background-color: #fff;
+	border-color: #fff;
+	color: #000;
+}
