@@ -1,0 +1,100 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+html,body{height:100%}
+body {
+
+}
+.booking-area-bg{background-image: url(../img/bg-1.jpg)}
+.booking-area {
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+    padding: 80px 0;
+}
+.booking-area::after, .book-element:after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	background: #000;
+	z-index: -1;
+	width: 100%;
+	height: 100%;
+	opacity: .6;
+}
+.book-text {
+	text-align: center;
+	color: #fff;
+}
+.book-text h1 {
+	font-size: 60px;
+	margin-top: 20px;
+}
+.book-text p {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+.sep-top {
+	max-width: 300px;
+}
+.sep-btm {
+	max-width: 150px;
+    margin-bottom: 50px;
+}
+.book-element {
+	position: relative;
+	color: #e3c47a;
+	font-size: 25px;
+	padding: 25px;
+    box-shadow: 0px 0px 1px #e3c47a;
+}
+.book-element label {
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 300;
+	opacity: .7;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.book-element select {
+	background: none;
+	border: none;
+}
+.book-element input[type="submit"] {
+	font-size: 20px;
+	text-transform: uppercase;
+	background: none;
+	border: none;
+	padding: 28px 0px;
+}
+.nice-select {
+	width: 100%;
+	float: none;
+	padding: 0;
+	background: none;
+	border: none;
+}
+.nice-select .list {
+	width:100%
+}
+
+
