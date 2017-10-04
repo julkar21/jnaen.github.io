@@ -1,0 +1,80 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+.section-padding{color:#fff;padding: 100px 0;font-size: 16px;line-height: 1.8;margin: 50px 0;}
+.section-bg{background-image: url(../img/bg.jpg);background-size: cover;background-position: center;position: relative;z-index: 2;}
+.section-blue-overlay, .section-black-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 40%;
+	background-color: #01A2DE;
+	height: 100%;
+	opacity: .7;
+}
+.section-black-overlay {
+	left: auto;
+	right: 0;
+	width: 60%;
+	background-color: #000;
+	opacity: .5;
+}
+.single-service-box {
+	position: relative;
+    padding-left: 35px;
+    margin-bottom:35px  ;
+    
+}
+.single-service-box i.fa {
+	position: absolute;
+	left: 0;
+	top: 0;
+	font-size: 25px;
+}
+.single-service-box h2 {
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.section-title{position: relative}
+.section-title p {
+	font-style: italic;
+}
+.section-title h2 {
+	text-transform: uppercase;
+	font-size: 44px;
+	padding: 30px 0px;
+}
+.section-title::before {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	content: "";
+	width: 150px;
+	height: 2px;
+	background: #0582B1;
+}
+
+
+
+
+
+
+
