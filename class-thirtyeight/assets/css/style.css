@@ -1,0 +1,81 @@
+/* Base CSS */
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+
+}
+
+.section-bg{background-image: url(../img/bg-1.jpg);background-position: center;background-size: cover}
+
+.section-overlay {
+	position: relative;
+    z-index: 2;
+}
+.section-overlay::after {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	content: "";
+	top: 0;
+	left: 0;
+	background: #000;
+	z-index: -1;
+	opacity: .5;
+}
+
+
+.section-padding {
+	color: #fff;
+	padding: 130px 0;
+	text-align: center;
+}
+
+.single-count-item i.fa {
+	font-size: 75px;
+	padding-bottom: 60px;
+}
+.single-count-item h3 {
+	font-size: 40px;
+	font-weight: normal;
+}
+
+.single-count-item p {
+	font-size: 20px;
+	text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
