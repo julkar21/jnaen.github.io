@@ -1,0 +1,75 @@
+/* Base CSS */
+ @import url('https://fonts.googleapis.com/css?family=Vidaloka');
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+    font-family: 'Vidaloka', serif;
+
+}
+.section-padding{padding: 50px 0;line-height: 1.6;}
+.section-bg-1{background-image: url(../img/bg-1.jpg)}
+.section-bg-2{background-image: url(../img/bg-2.jpg)}
+.btn {
+	display: inline-block;
+	color: #fff;
+	background: #BFA358;
+	padding: 10px 30px;
+	margin-top: 25px;
+}
+h2 {
+	margin-top: 105px;
+}
+.btn i.fa {
+	margin-left: 15px;
+}
+.btn:hover {
+	color: #fff;
+}
+.border-bg {position: relative}
+.border-bg {
+	width: 530px;
+	height: 450px;
+	position: relative;
+	z-index: 2;
+}
+.section-bg {
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+	width: 100%;
+	height: 100%;
+}
+.border-bg.left-side-bar {
+	margin-left: -230px;
+}
+.border-bg::after {
+	position: absolute;
+	right: -25px;
+	bottom: -25px;
+	content: "";
+	border: 1px solid #C8A058;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+
+
+
+
+
+
