@@ -1,0 +1,116 @@
+/* Base CSS */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i');
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+body {
+	font-family:'Ubuntu', sans-serif;
+}
+.footer-bg-1{background-image: url(../img/bg-1.jpg);}
+.section-padding{margin-top: 150px;}
+.footer-top-area{background-color: #F4F4F4;padding: 50px 0;}
+.footer-form input[type="email"], .footer-form button[type="submit"] {
+	border: none;
+	background: none;
+    padding: 10px;
+}
+.footer-form input[type="email"] {
+    width:60%;
+    border-bottom:1px solid #333;
+    margin-right: 30px;
+}
+.footer-form button[type="submit"] {
+    width:25%;
+    border-bottom:2px solid #BFA359;
+    color:#333;
+    font-weight: 700;
+}
+.footer-form button[type="submit"] i.fa {margin-left: 8px;}
+.footer-menu ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.footer-menu{margin-bottom: 20px}
+.footer-menu ul li {
+	display: inline-block;
+}
+.footer-menu ul li a {
+	padding-left:20px;
+	color: #494949;
+	font-weight: 700;
+}
+.social-icons a {
+	color: #494949;
+	padding-left: 20px;
+}
+.footer-area-bottom{padding: 30px 0}
+.footer-text p {
+	color: #888;
+}
+.footer-area-bottom .container {
+	position: relative;
+}
+.footer-bg-inner {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-color: #000;
+}
+.footer-bg {
+	position: absolute;
+	height: 200px;
+	width: 429px;
+	left: 33px;
+	bottom: 0;
+}
+.footer-bg {
+	position: absolute;
+	height: 372px;
+	width: 434px;
+	left: -310px;
+	bottom: 0;
+    z-index: 2;
+}
+.footer-bg::after {
+	position: absolute;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: #f4f4f4;
+	left: -40px;
+	bottom: -40px;
+	z-index: -1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
