@@ -1,0 +1,151 @@
+/* Base CSS */
+/* font css */
+/
+
+*/
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('AsiyahScript.eot');
+    src: url('AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('AsiyahScript.woff') format('woff'),
+        url('AsiyahScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('AsiyahScript_1.eot');
+    src: url('AsiyahScript_1.eot?#iefix') format('embedded-opentype'),
+        url('AsiyahScript_1.woff') format('woff'),
+        url('AsiyahScript_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'asiyah_scriptregular';
+}
+html,body{height:100%}
+body {
+	
+}
+
+.section-bg {
+	background-image:url(../img/bg-1.jpg);
+}
+.shadow-section {
+	background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 100px 0 250px;
+}
+.shadow-section h2 {
+    letter-spacing: 2px;
+    font-size: 40px;
+    color: #222;
+    font-weight: 400;
+    margin-bottom: 0px;
+}
+.price-text {
+    color: #D8085E;
+    font-weight: 700;
+    margin-bottom: 20px;
+    margin-top: 10px;
+	font-size: 20px;
+}
+.box-btn {
+    background: #D8085E;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: 0.3s;
+    display: inline-block;
+    margin-top: 20px;
+} 
+.box-btn:hover {
+    color: #ddd;
+}
+
+.single-item {
+    position: relative;
+    text-align: center;
+    background: #fff;
+	padding: 15px;
+    z-index: 1;
+    box-shadow: 0px 5px 20px #ddd;
+    margin-top: -75px;
+    margin-bottom: 100px;
+} 
+.single-item h3 {
+    font-size: 30px;
+    color: #DC0563;
+    font-family: inherit;
+    margin: 20px 0;
+} 
+.single-item i.fa {
+    font-size: 40px;
+    color: #121212; 
+} 
+.single-item span {
+    color: #4D4B49;
+    font-size: 18px;
+    display: inline-block;
+}
+
+.shadow-section {
+	background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    padding: 100px 0 250px;
+} 
+.shadow-section:after {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	content:"";
+	height:60%;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&1+0,0.6+50,0.8+100;White+to+Transparent */
+	background: -moz-linear-gradient(top, rgba(255,255,255,0.8) 0%, rgba(255,255,255,0.5) 50%, rgba(255,255,255,0.1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(255,255,255,0.8) 0%,rgba(255,255,255,0.5) 50%,rgba(255,255,255,0.1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ccffffff',GradientType=0 ); /* IE6-9 */
+	z-index:-1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
