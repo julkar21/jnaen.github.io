@@ -1,0 +1,127 @@
+/* Base CSS */
+/* font css */
+/
+
+*/
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('AsiyahScript.eot');
+    src: url('AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('AsiyahScript.woff') format('woff'),
+        url('AsiyahScript.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('AsiyahScript_1.eot');
+    src: url('AsiyahScript_1.eot?#iefix') format('embedded-opentype'),
+        url('AsiyahScript_1.woff') format('woff'),
+        url('AsiyahScript_1.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+a:focus { outline: 0 solid }
+a:hover { text-decoration: none }
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'asiyah_scriptregular';
+}
+html,body{height:100%}
+body {
+	font-family: 'Lato', sans-serif;
+}
+
+
+
+.header-top {
+  background-color: #0B0B0B;
+  padding: 13px 0;
+}
+.header-top, .header-top a {
+  color: #f5f3f3;
+}
+.header-top i.fa {
+  color: #fc721e;
+  padding-right: 7px;
+}
+.social-link a {
+  display: inline-block;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  border: 1px solid #fff;
+  text-align: center;
+  border-radius: 50%;
+}
+.social-link i.fa {
+  padding-right: 0;
+  color: #f5f3f3;
+}
+.social-link {
+  display: inline-block;
+  padding-left: 20px;
+}
+.social-link a:hover {
+  background-color: #fc721e;
+  border-color: #fc721e;
+}
+.header-top i.fa.fa-phone {
+  padding-left: 20px;
+}
+
+
+.header-bottom {
+	padding: 20px 0px;
+}
+.header-logo {
+	margin-bottom: 0;
+}
+.header-logo a {
+	color: #0b0b0b;
+	display: inline-block;
+	font-size: 25px;
+	text-transform: uppercase;
+	border: 1px solid;
+	padding: 15px 20px;
+}
+.menu ul {
+	margin: 0;
+	padding: 5px 0;
+	list-style: none;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a {
+	color: #333;
+	padding: 12px 17px;
+	font-weight: 900;
+	text-transform: uppercase;
+    display: block;
+     border: 1px solid transparent;
+    transition: 0.3s;
+}
+.menu ul li:hover > a {
+    border: 1px solid #fc721e;
+}
+
+
+
+
+
+
